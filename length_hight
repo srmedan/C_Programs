@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void)
+{
+
+float height, length, width, volume;
+
+height = 8;
+length = 12;
+width = 10;
+
+printf("The height is: %f\n, while the length is: %f\n", height, length);
+
+}
