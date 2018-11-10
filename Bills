@@ -4,13 +4,15 @@ int main(void)
 
 {
 
-int amount=0;
+int amount=0, twentybill=0;
 
 printf("Please enter the amount that you want to split: \n");
 
 scanf("%i", &amount);
 
-printf("You entered %i\n", amount);
+twentybill = amount / 20;
+
+printf("The nr of twenty dollar bills nedded is: %i\n", twentybill);
 
 return 0;
 }
