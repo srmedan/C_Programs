@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void)
+
+{
+
+int amount=0;
+
+printf("Please enter the amount that you want to split: \n");
+
+scanf("%i", &amount);
+
+printf("You entered %i\n", amount);
+
+return 0;
+}
