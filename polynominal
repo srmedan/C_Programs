@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+
+int x, polynominal;
+
+printf("the value of x is: ");
+scanf("%i", &x);
+printf("The value of x you entered is: %i", x);
+
+polynominal = 3 * x * x * x * x * x + 2 * x * x * x;
+printf("The value of the calculation is: %i", polynominal);
+
+}
